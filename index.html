@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    
+    <title >Gate Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+   <div class="Body" >
+    <div class="label" ><img src="logo.png" style="width:2.5%; position:relative; left: 0.45%; top: 5%" alt="" srcset=""><label for="">Gate Calculator</label><img src="arrow2.png" alt="" srcset="" style="width:6%;left:46%;position:absolute;" id = "Arrow"></div>
+    <div class = "textbox_grid" >
+        <input type="text" class = "textbox" id = "Exp" value = "" readonly>
+        <input type="text" class = "textbox" id = "result" value = "0" readonly>
+    </div>
+    <div class="switch_grid">
+        <input type="button" value="mod" class = "button">
+        <span>
+            <input type="radio" value="" class="radio">
+            <label for="" style="margin-left: 0px;font-size:12px; font-weight: bolder;"><sub>Deg</sub></label>
+        </span>
+        <span>
+            <input type="radio" value="" class="radio">
+            <label for="" style="margin: 0px;font-size:12px; font-weight: bolder;"><sub>Rad</sub></label>
+        </span>
+        <div id="M">
+            <input type="button" value="MC" class = "button m">
+            <input type="button" value="MR" class = "button m">
+            <input type="button" value="MS" class = "button m">
+            <input type="button" value="M+" class = "button m">
+            <input type="button" value="M-" class = "button m">
+        
+        </div>
+        <div class="grid">
+            <button class="button">sinh</button>
+<button class="button">cosh</button>
+<button class="button">tanh</button>
+<button class="button">Exp</button>
+<button class="button">(</button>
+<button class="button">)</button>
+<button class="button C" id="arrow" style="width: 96%;">←</button>
+<button class="button C">C</button>
+<button class="button special">+/-</button>
+<button class="button">√</button>
+<button class="button">sinh<sup>-1</sup></button>
+<button class="button" id="cosh">cosh<sup>-1</sup></button>
+<button class="button" id="tanh">tanh<sup>-1</sup></button>
+<!-- Repeating sin-1 buttons -->
+<button class="button">log<sub>2</sub>x</button>
+<button class="button">ln</button>
+<button class="button">log</button>
+<button class="button p">7</button>
+<button class="button p">8</button>
+<button class="button p">9</button>
+<button class="button p">/</button>
+<button class="button p">%</button>
+<button class="button ">Π</button>
+<button class="button">e</button>
+<button class="button">n!</button>
+<button class="button">log<sub>y</sub>x</button>
+<button class="button ">e<sup>x</sup></button>
+<button class="button p">10<sup>x</sup></button>
+<button class="button p">4</button>
+<button class="button p">5</button>
+<button class="button p">6</button>
+<button class="button" id = "star">*</button>
+<button class="button">1/x</button>
+<button class="button">sin</button>
+<button class="button">cos</button>
+<button class="button">tan</button>
+<button class="button">x<sup>y</sup></button>
+<button class="button">x<sup>3</sup></button>
+<button class="button">x<sup>2</sup></button>
+<button class="button p">1</button>
+<button class="button p">2</button>
+<button class="button p">3</button>
+<button class="button p" id="minus">-</button>
+<button class="button" id = "equal">=</button>
+<button class="button">sin<sup>-1</sup></button>
+<button class="button">cos<sup>-1</sup></button>
+<button class="button">tan<sup>-1</sup></button>
+<button class="button"><sup>y</sup>√X</button>
+<button class="button"><sup>a</sup>√</button>
+<button class="button">|X|</button>
+<button class="button p" id="zero">0</button>
+<button class="button p">.</button>
+<button class="button p">+</button>
+
+        </div>
+    </div>
+
+   </div>
+   <script src="script.js" ></script>
+</body>
+
+</html>
+

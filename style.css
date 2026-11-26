@@ -1,0 +1,158 @@
+body
+{
+    height:100vh;
+    width: 100vw;
+    margin:0;
+    font-family: sans-serif;
+    background-color: #5ef263;
+    position: relative;
+}
+.Body
+{
+    
+    width:640px;
+    height:375px;
+    position:absolute;
+    left:calc(50% - calc(640px/2));
+    top:calc(50% - calc(375px/2));
+    
+    background-color: #dadada;
+    border: 2px solid #cc5c07;
+}    
+.textbox_grid
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top:10px;
+    height: 20%;
+}
+
+.textbox
+{
+    
+    position: relative;
+    margin: 5px;
+    width: 94%;
+    height: 20px;
+    left: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: right;
+    font-size: medium;
+    font-weight: bolder;
+    border-color: #aba5a5;
+    border-width: 3.5px;
+    padding-right:5px;
+}
+
+.label
+{
+    width:100%;
+    height: 38px;
+    background-color: #5584F1;
+    color: white;
+    line-height: 35px;
+   
+    
+}
+
+label
+{
+    margin-left: 7px;
+}
+
+.switch_grid
+{
+    position: relative;
+    width: 99%;
+    height: 60%;
+    top:20px;
+    padding-left: 10px;
+}
+.button
+{
+    
+    background-color: #ffffff;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #AAAAAA;
+    text-align: center;
+    width:52px;
+    height:25px;
+    box-shadow: 0px 2px #AAAAAA;
+    font-weight: bold;
+    
+}
+.radio
+{
+    position: relative;
+    top:4px;
+    
+}
+#M
+{
+    position: absolute;
+    width: 57%;
+    height: 25px;
+    left: 39%;
+    top: 1%;
+    display: flex;
+    justify-content: flex-end;
+    gap:4px;
+}
+.grid
+{   
+    
+    display: grid;
+    position: relative;
+    width: 96%;
+    height:92%;
+    left: 0%;
+    margin-top: 2%;
+    grid-template-columns: repeat(11,55.5px);
+    grid-template-rows: (5,48px);
+}
+.grid[type="button"]
+{
+    width: auto;
+}
+#arrow
+{
+    grid-column: span 2;
+    width: 90%;
+    
+}
+
+.special,.C
+{
+    background-color: #ff6161;
+    box-shadow: 0px 2px #B9402F;
+    color: white;
+}
+
+#cosh ,#tanh
+{
+    
+    padding-left: 5%;
+}
+#star,#minus
+{
+    font-size: x-large;
+}
+#equal
+{
+    background-color: #0bcb48;
+    box-shadow: 0px 2px #3EAD61;
+    color: white;
+    font-size: xx-large;
+    grid-row: span 2;
+    height:80.5%;
+    border-radius: 10%;
+}
+#zero
+{
+    grid-column: span 2;
+    width: 97%;
+}
